@@ -21,11 +21,13 @@ body {
 }
 .display-box { 
     text-align: center; 
+    width: 90%;
     background-color: white; 
     padding: 8px; 
     border-radius: 5px; 
-    margin: 16px 32px;
+    margin: 32px auto;
     box-shadow: 8px 8px rgba(57, 57, 57,0.4);
     border: 1px solid black;
     
 }
+
