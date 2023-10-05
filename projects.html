@@ -6,24 +6,87 @@
     <link rel="stylesheet" href="styles.css">
     <title>Roshan Forde</title>
 </head>
-
-<body>
+<!-- 
+https://github.com/rororowyourkayak/rororowyourkayak.github.io
+ --><body>
     <nav class="navbar">
         <a href="./">Home</a>
         <a href="./projects.html">Projects</a>
     </nav>
-    <div class="display-box">
+    <div class="display-box" id="project-display-box">
         <h1>Projects</h1>
-        <p>This page discusses some of the projects that I've worked on. 
-            <br>Each of these projects' codebases are viewable on GitHub, links provided below.</p>
+        <p>This page provides commentary some of the projects that I've worked on. 
+        </p>
+        <p>
+            The following projects are discussed below:
+            <ul>
+                <li><a href="#inventory">Inventory Manager</a></li>
+                <li><a href="#pa-inspection">PA Inspection Stations</a></li>
+                <li><a href="#this-site">This Site</a></li> 
+            </ul>
+        </p>
     </div>
 
-    <div class="display-box">
+    <div class="display-box" id="inventory">
         <h2>Inventory Manager</h2>
         <p><a href="https://github.com/rororowyourkayak/inventory-manager">https://github.com/rororowyourkayak/inventory-manager</a></p>
         <p>In this project, I built a web-based inventory management system that allows users to store UPC-A based items.
             <br>The user stores a UPC-A code, category, description and quantity for each item they may store.
             <br> Additionally, this system allows for photo uploads to be viewed with an item's information.
+        </p>
+        <p>
+            The system features a user system and input validation based on Laravel.
+             <br>The application supports importing and exporting of inventory as a CSV or XLSX file.
+           <br>Project also features an example of recaptcha protection in the contact page.
+    
+        </p>
+        
+           <h4>Frontend</h4>
+          <p> The frontend of this system was built with HTML, CSS, Bootstrap 5, and jQuery.
+           <br> This project also made use of the DataTables and Select2 jQuery-based libraries.
+          </p>
+        
+        
+          <h4>Backend</h4>
+           <p>The backend of this project was built using Laravel 8, PHP 8 and MySQL. 
+            <br>This system is a CRUD (Create, Read, Update, Delete) application, making database interactions important. 
+             </p>
+    </div>
+    <div class="display-box" id="pa-inspection">
+        <h2>PA Auto Safety Inspection Stations</h2>
+        <p><a href="https://github.com/rororowyourkayak/pa_inspection_stations">https://github.com/rororowyourkayak/pa_inspection_stations</a></p>
+        <p> In this project, I built a site that displays information about the safety inspection stations in PA.
+        <br>The purpose of this site is to make a more accessible medium for this information.
+        <br>This site also features a convenient search tool for users to find stations.
+        </p>
+
+        <h4>Frontend</h4>
+          <p> The frontend of this system was built with HTML, CSS, Bootstrap 5.
+           <br> Additionally, the site's search tool was built with the help of Vue.js.
+          </p>
+        
+        
+          <h4>Backend</h4>
+           <p>The backend of this project was built using Laravel 8, PHP 8 and MySQL. 
+             </p>
+             <p>
+                The most important part of this site was extracting information into a database.
+                <br>This was done by writing a script with Python using the openpyxl library.
+                <br>After data was extracted, it was then turned into Laravel models using Laravel Excel.
+             </p>
+    </div>
+    <div class="display-box" id="this-site">
+        <h2>This Site</h2>
+        <p>
+            This site was built to be an about me and portfolio page. 
+           <br> It features a playful theme and lots of great info about me. 
+            <br>This site is hosted on GitHub pages, so it is only built on the front-end.
+        </p>
+        <p>
+            This site just uses simple HTML and CSS. 
+            <br>Everything here is custom raw CSS, no Bootstrap or other CSS libs. 
+            <br> This project was a nice opportunity to practice framework-free coding.
+            <br>Hope you enjoyed!
         </p>
     </div>
 </body>

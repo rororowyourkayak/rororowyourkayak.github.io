@@ -55,3 +55,8 @@ body {
     margin: auto;
     width: 70%;
 }
+#project-display-box ul{
+    list-style-type: none
+}
+
+
