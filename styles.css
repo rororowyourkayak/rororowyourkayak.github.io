@@ -35,10 +35,9 @@ body {
     width: 80%;
     background-color: rgb(255, 255, 255); 
     padding: 8px; 
-    border-radius: 5px; 
+    border-radius: 1px; 
     margin: 32px auto;
-    box-shadow: 12px 12px rgba(57, 57, 57,0.4);
-    border: 2px solid black;
+    border: 1px solid black;
     
 }
 .display-box h3 a{
